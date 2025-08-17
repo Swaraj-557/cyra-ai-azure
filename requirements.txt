@@ -1,0 +1,39 @@
+# Azure Web App Requirements
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+python-multipart==0.0.20
+email-validator==2.2.0
+pydantic==2.11.7
+pydantic-settings==2.10.1
+websockets==15.0.1
+aiofiles==24.1.0
+python-dotenv==1.1.1
+starlette==0.47.2
+
+# Production dependencies
+gunicorn==23.0.0
+psycopg2-binary==2.9.9
+
+# Azure-specific
+azure-storage-blob==12.23.1
+azure-keyvault-secrets==4.8.0
+azure-identity==1.19.0
+
+# Monitoring and logging
+applicationinsights==0.11.10
+opencensus-ext-azure==1.1.13
+
+# Security
+passlib[bcrypt]==1.7.4
+PyJWT==2.10.1
+cryptography==45.0.6
+
+# Database
+sqlite3
+sqlalchemy==2.0.36
+alembic==1.14.0
+
+# Utilities
+requests==2.32.4
+aiohttp==3.12.15
+Pillow==11.0.0
